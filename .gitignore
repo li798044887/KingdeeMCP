@@ -42,3 +42,4 @@ memory/
 # Temp scratch
 temp_*.md
 *.full_backup
+.kingdee.env

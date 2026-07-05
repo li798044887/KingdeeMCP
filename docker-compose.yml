@@ -1,0 +1,6 @@
+services:
+  kingdee-mcp:
+    image: kingdee-mcp:latest
+    container_name: kingdee-mcp
+    env_file: .kingdee.env
+    restart: unless-stopped
